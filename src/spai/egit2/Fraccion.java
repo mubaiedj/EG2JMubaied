@@ -72,8 +72,13 @@ public class Fraccion {
 	}
 
 	public boolean isImpropia() {
-		return false;
-	}
+            if(this.getNumerador() > this.getDenominador()){
+                    return true;
+            }
+            else{
+                    return false;
+            }
+    }
 
 	public boolean isEquivalente(Fraccion f) {
 		return false;
