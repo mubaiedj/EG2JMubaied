@@ -22,6 +22,8 @@ public class NumeroEntero {
     public void incrementar() {
         this.setValor(this.valor + 1);
     }
+    
+    public int multiplicar(int valor){return -1;}
 
     public void doblar() {
         this.setValor(this.valor * 2);

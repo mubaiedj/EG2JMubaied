@@ -38,7 +38,19 @@ public class NumeroEnteroTest {
         this.numero.doblar();
         assertEquals(200, this.numero.getValor());
     }
-
+   
+    @Test
+    public void testMultiplicar() {
+        this.numero.multiplicar(2);
+        assertEquals(200, this.numero.getValor());
+        
+        this.numero.multiplicar(5);
+        assertEquals(500, this.numero.getValor());
+        
+        this.numero.multiplicar(10);
+        assertEquals(1000, this.numero.getValor());
+    }
+    
     @Test
     public void testDecrementar() {
         this.numero.decrementar();
