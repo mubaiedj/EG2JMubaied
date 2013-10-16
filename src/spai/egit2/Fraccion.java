@@ -72,10 +72,6 @@ public class Fraccion {
 	}
 
 	public boolean isImpropia() {
-            if(this.getNumerador() > this.getDenominador()){
-                    return true;
-            }
-            else{
                     return false;
             }
     }
