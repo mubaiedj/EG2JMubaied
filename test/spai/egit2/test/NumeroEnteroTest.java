@@ -41,14 +41,14 @@ public class NumeroEnteroTest {
    
     @Test
     public void testMultiplicar() {
-
-        assertEquals(200, this.numero.multiplicar(2));
+        this.numero.multiplicar(2);
+        assertEquals(200, this.numero.getValor());
         
-
-        assertEquals(500, this.numero.multiplicar(5));
+        this.numero.multiplicar(5);
+        assertEquals(500, this.numero.getValor());
         
-
-        assertEquals(1000, this.numero.multiplicar(10));
+        this.numero.multiplicar(10);
+        assertEquals(1000, this.numero.getValor());
     }
     
     @Test
@@ -61,3 +61,4 @@ public class NumeroEnteroTest {
     }
 
 }
+
