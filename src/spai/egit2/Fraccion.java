@@ -79,5 +79,5 @@ public class Fraccion {
 	public boolean isEquivalente(Fraccion f) {
 		return false;
 	}
-}
+} 
 
