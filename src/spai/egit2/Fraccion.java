@@ -68,7 +68,11 @@ public class Fraccion {
 	}
 
 	public boolean isPropia() {
-		return false;
+		if (this.getNumerador() <= this.getDenominador()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public boolean isImpropia() {
