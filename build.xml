@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="ProyectoANT" default="test" basedir=".">
+<project name="ProyectoANT" default="test" basedir="."> 
 	<!-- Variables globales -->
 	<property name="src" location="src" />
 	<property name="build" location="build" />
